@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define PI 3.141592
+
+void main()
+{
+    int r, i;
+    float result;
+ 
+    scanf("%d %d", &r, &i);
+
+    result = (PI * r * r * 2) + (2 * r * PI * i);                                                         
+    printf("%.2f\n", result);
+}
